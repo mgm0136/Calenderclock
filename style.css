@@ -1,1 +1,87 @@
+table {
+ width: 400px;
+ height: 400px;
+}
+#one {
+  background-color: yellow;
+  
+}
+body { 
+  heght: 100%; width: 100%;
+  margin: auto;
+}
 
+.row {
+ float: right; 
+ margin: 60px; 
+}
+
+#sidebar {
+  display: block;
+  border: 5px solid #23403C;
+  margin-top: 200px;
+  float: left;
+  position: absolute;
+  background-color: #23403C;
+  width: 150px;
+  height: 550px;
+ }
+#sidebar a {
+  text-decoration: none;
+}
+#sidebarbutton:hover, #sidebarbutton2:hover, #sidebarbutton3:hover, #sidebarbutton4:hover {
+  background-color: #CBFADA;
+}
+#sidebarbutton, #sidebarbutton2, #sidebarbutton3, #sidebarbutton4
+{
+  width: 100%;
+  height: 88px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #ACDDC7;
+  display: block;
+  border-radius: 50%;
+  border: 3px solid #ACDDC7;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: arial;
+ }
+
+#side {
+  font-size: 3em;
+  font-weight: bold;
+  color: #D6FEE3;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.calender {
+  margin-top: 110px;
+}
+#canvas {
+  border: 10px solid #5B885D;
+  border-radius: 50%;
+  box-shadow: 15px 5px 5px 5px #b2b0b0;
+  margin: 0px auto;
+  padding: 30px;
+  height: 400px;
+  width: 400px;
+}
+.col-xs-4 {
+  margin-left: 50px;
+  
+}
+
+.clock {
+  margin-top: 130px;
+ padding-left: 40px;
+}
+footer {
+   float: left;
+   margin-bottom: 300px;
+   padding-left: 15px; 
+}
+p {
+  font-size: 20px;
+  font-style: Italic;
+   }
